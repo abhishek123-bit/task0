@@ -13,7 +13,7 @@ public class LargestOfThreeNumber {
             ,c=sc.nextInt();
 
 	int LargestNumber=(a>b?(a>c?a:c):(b>c?b:c));
-	
+
 	System.out.println(LargestNumber);
 
     }
