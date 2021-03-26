@@ -3,6 +3,8 @@ package com.abhi;
 import java.util.Scanner;
 
 public class frequencyOfCharacter {
+    int count;
+
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
 
@@ -13,7 +15,7 @@ public class frequencyOfCharacter {
             if(str.charAt(i)==' '){
                 continue;
             }
-            int count=1;
+            int count= 1;
 
             for (int j = i+1; j <str.length() ; j++) {
 
